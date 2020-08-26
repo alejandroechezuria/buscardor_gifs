@@ -1,0 +1,30 @@
+<div class="fondo">
+  <div class="arriba">
+    <h1>Alejandro Echezuria</h1>
+    
+  </div>
+  <div class="s01">
+    <form #nossoForm="ngForm" (ngSubmit)="buscar(nossoForm.form)">
+      <fieldset>
+        <legend>Pesquisador de GIF</legend>
+      </fieldset>
+      <div class="inner-form">
+        <div class="input-field first-wrap">
+          <input
+            id="search"
+            type="text"
+            placeholder=" DIGITE!!!"
+            name="ask"
+            [(ngModel)]="ask"
+          />
+        </div>
+        <div class="input-field third-wrap">
+          <button class="btn-search" type="submit">Pesquisar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="footer-text">
+    <p>&copy; Jose Alejandro  - 2020 | Todos os direitos reservados.</p>
+  </div>
+</div>

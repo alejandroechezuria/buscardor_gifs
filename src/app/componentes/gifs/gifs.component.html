@@ -1,0 +1,29 @@
+<div class="fondo">
+  <div class="s01">
+    <form>
+      <div class="inner-form">
+        <fieldset>
+          <legend>Resultados</legend>
+          <div class="input-field third-wrap">
+            <button
+              class="btn-search"
+              type="button"
+              onclick="javascript:location.href='/'"
+            >
+              Pesquisar novamente
+            </button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="ver">
+        <div *ngFor="let i of gifs.data" class="jose_card">
+          <img [src]="i.images.fixed_width.url" title="{{ i.title }}" />
+          <a href="{{ i.url }}" target="_blank">ver gif</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="footer-text">
+    <p>&copy; Jose Alejandro  - 2020 | Todos os direitos reservados.</p>
+  </div>
+</div>

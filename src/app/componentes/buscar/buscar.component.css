@@ -1,0 +1,10 @@
+.arriba{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: aliceblue;
+  margin: auto 50px;
+  font-family: "Lato", sans-serif;
+}
+
