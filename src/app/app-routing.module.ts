@@ -8,7 +8,7 @@ const routes: Routes = [
   
   { path: '', component: BuscarComponent },
   { path: 'resultados/:d', component: Gifscomponent },
-  { path: 'giphy_api/resultados/:d', component: Gifscomponent },
+  
 
 ];
 
