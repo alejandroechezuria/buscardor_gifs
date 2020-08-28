@@ -13,6 +13,6 @@ export class BuscarComponent implements OnInit {
 
   buscar(form) {
     location.href = `/resultados/${form.value.ask}`;
-    location.href = `giphy_api/resultados/${form.value.ask}`;
+    
   }
 }
